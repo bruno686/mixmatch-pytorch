@@ -35,4 +35,4 @@ class MixMatchLoader:
 
     def __len__(self):
 
-        return len(self.loader_labeled)
+        return min(len(self.loader_labeled), len(self.loader_unlabeled))
