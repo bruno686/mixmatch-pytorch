@@ -10,6 +10,6 @@ setup(
    keywords='mixmatch holistic approach pytorch torch',
    packages=['mixmatch_pytorch'],
    install_requires=[
-       'torch<=1.3',
+       'torch>=1.3',
    ],
 )
